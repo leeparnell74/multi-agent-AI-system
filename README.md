@@ -2,10 +2,6 @@
 # Multi-Agent AI System
 
 This project is built following on top of the comprehensive guide from [LangChain](https://github.com/langchain-ai) official notebook documentation.
-
-
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/) [![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-orange)](https://langchain-ai.github.io/langgraph/) [![LangSmith](https://img.shields.io/badge/LangSmith-Tracing-purple)](https://www.langchain.com/langsmith) [![Together AI](https://img.shields.io/badge/Together%20AI-API-green)](https://www.together.ai/) [![OpenAI](https://img.shields.io/badge/OpenAI-API-lightgrey)](https://openai.com/) [![SQLite](https://img.shields.io/badge/SQLite-Database-blue)](https://www.sqlite.org/) [![Medium](https://img.shields.io/badge/Medium-Blog-black?logo=medium)](https://medium.com/@fareedkhandev/building-a-multi-agent-ai-system-with-langgraph-and-langsmith-6cb70487cd81)
-
 It is now becoming a trend that a powerful AI agent gets created by combining several smaller subagents. But this also brings challenges like reducing hallucinations, managing the conversation flow, keeping an eye on how the agent works during testing, allowing human in the loop, and evaluating its performance. You need to do a lot of trial and error.
 
 In this blog, we will start by creating two simple subagents, then build a multi-agent system using a supervisor approach. Along the way, we will cover the basics, the challenges you might face when creating complex AI agentic architecture, and how to evaluate and improve them.
@@ -31,7 +27,7 @@ Make sure you have `Python 3.10+` installed on your system, as this project requ
 
 ```bash
 # Clone the Multi-Agent AI System repository from GitHub
-git clone https://github.com/FareedKhan-dev/Multi-Agent-AI-System.git
+git clone https://github.com/leeparnell74/multi-agent-AI-system
 
 # Navigate into the project directory
 cd Multi-Agent-AI-System
